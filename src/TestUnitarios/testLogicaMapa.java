@@ -42,7 +42,6 @@ class testLogicaMapa {
 		assertEquals(p5.Distancia(p6),p6.Distancia(p5));
 	}
 	
-	
 	@Test
 	void testDistanciaEntreDosPuntosDiferente() {
 		assertFalse(p5.Distancia(p6)==8);
